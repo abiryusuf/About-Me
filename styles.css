@@ -1,0 +1,100 @@
+
+header, section, figure, nav, footer, aside {
+    display: block;
+}
+body{
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url(images/background.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+    line-height: 1.3em;
+    margin: 0px;
+}
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+
+}
+header{
+    height: 60px;
+}
+
+header, footer{
+    clear: both;
+    color: #ffffff;
+    background-color: salmon;
+    border-bottom: 2px solid black;
+
+
+
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+
+
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: #ffffff;
+}
+nav li a {
+    color: #ffffff;
+}
+
+/*nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 20px;
+
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+   
+  
+    
+}
+nav li a{
+    color: #ffffff;
+   
+    float: right;;
+    
+}
+nav li a :hover{
+    color: black;
+
+}*/
+section.about_me{
+    float: left;
+    width: 660px;
+    border-right: 1px solid #eeeeee;
+}
+
+
+
+img{
+    width: 200px;
+    border: 1px solid salmon;
+
+}
+
+.abir{
+    float: left;
+}
+.art{
+    float: right;
+}
+footer{
+    text-align: center;
+}
+
